@@ -1,88 +1,52 @@
 
-    <ul class="nav nav-pills ">
-        <li role="presentation" ng-repeat="(i,modules) in tarifasCtrl.modules" ng-class="{active: tarifasCtrl.selected===i}"><a href="#" ng-click="tarifasCtrl.change(i)">{{modules | uppercase}}</a></li>
-    </ul>
-    <div ng-show="tarifasCtrl.selected===0">
-        <h1>Tarifas</h1>
-        <h3>Segun tus necesidades y el tipo de entrenamiento que necesites te realizaremos un presupuesto.</h3>
-        <br/>
-        <br/>
-        <br/>
-        <h1>Tarifas básicas</h1>
-        <table class="table">
-            <tr>
-                <td>Sesion suelta</td>
-                <td>35€</td>
-            </tr>
-            <tr>
-                <td>4 sesiones en el plazo de un mes</td>
-                <td>100€</td>
-            </tr>
-            <tr>
-                <td>8 sesiones en el plazo de un mes</td>
-                <td>150€</td>
-            </tr>
-            <tr>
-                <td>Plan de entrenamiento mensual</td>
-                <td>50€</td>
-            </tr>
-            <tr>
-                <td>Plan mensual + 4 sesiones</td>
-                <td>120€</td>
-            </tr>
-            <tr>
-                <td>Plan mensual + 4 sesiones</td>
-                <td>120€</td>
-            </tr>
-        </table>
+
+<div class="container scrollspy" id="tarifas" >
+    <h4 class="center-align" style="padding-top: 40px">Tarifas</h4>
+    <table class="striped">
+        <thead>
+        <tr>
+            <th>Sesiones</th>
+            <th>Precio</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Sesion Única</td>
+            <td>39´90€</td>
+        </tr>
+        <tr>
+            <td>4 Sesiones/mes</td>
+            <td>99€</td>
+        </tr>
+        <tr>
+            <td>8 Sesiones/mes</td>
+            <td>158'50€</td>
+        </tr>
+        <tr>
+            <td>Plan de entrenamiento mensual</td>
+            <td>59´90€</td>
+        </tr>
+        <tr>
+            <td>Plan Mensual + 4 sesiones</td>
+            <td>129´90€</td>
+        </tr>
+        <tr>
+            <td>Plan Mensual + 8 sesiones</td>
+            <td>199€</td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="container">
+    <blockquote>
+        Tarifas por persona. Para descuentos de grupo <a class='dropdown-button' data-activates='contacto' href="#contacto" > contactar.</a>
+    </blockquote>
+    <blockquote>
+        Segun sus necesidades y el tipo de entrenamiento que necesite le realizamos un presupuesto personalizado.
+    </blockquote>
     </div>
-    <div ng-show="tarifasCtrl.selected===1">
-        <h1>Tarifas de Grupo</h1>
-        <table class="table">
-            <tr>
-                <td>Grupos de 2</td>
-                <td>20% descuento. Ej 4 sesiones mensuales total 160€ </td>
-            </tr>
-            <tr>
-                <td>Grupos de 4</td>
-                <td>25% descuento. Ej 4 sesiones mensuales total 300€ </td>
-            </tr>
-            <tr>
-                <td>Grupos de 6</td>
-                <td>30% descuento. Ej 4 sessiones mensuales total 420€ </td>
-            </tr>
-        </table>
-    </div>
-    <div ng-show="tarifasCtrl.selected===2">
-        <h1>Formas de Pago</h1>
-        <h3>Se aceptan pagos por paypal, transferencia bancaria, Para mas informacion ponganse en contacto con nosotros</h3>
-        <br/>
-        <h2>Tipos de Pago</h2>
-        <blockquote>Pago mensual no tiene bonificaciones adicionales</blockquote>
-        <table class="table">
-            <tr>
-                <td>
-                    Bimestral
-                </td>
-                <td>
-                    Bonificacion del 5% sobre la tarifa contratada, acumulable a otras ofertas.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Trimestral
-                </td>
-                <td>
-                    Bonificacion del 8% sobre la tarifa contratada, acumulable a otras ofertas.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Semestral
-                </td>
-                <td>
-                    Bonificacion del 12% sobre la tarifa contratada, acumulable a otras ofertas.
-                </td>
-            </tr>
-        </table>
-    </div>
+</div>
+
+
+
+
+

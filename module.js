@@ -6,36 +6,56 @@
     var servicios = [
         {
             name:"Entrenamiento Personalizado",
-            description:"Las ventajas de tener un entreador personal en contraposicion a ir a un gimnacion cerca de tu casa son muchas. Las principales son:\n" +
-            "El entrenador esta contigo en todo momento \n" +
-            "Programacion de un plan de entrenamiento adecuado a tus necesidades \n" +
-            "Corrección de la postura en el desarrollo de los ejercicios"
+            description:"Las ventajas de tener un entrenador personal (en oposición a ir a un gimnasio cerca de tu casa) son muchas. Las principales son:",
+            subtitle:["El entrenador está contigo mientras realizas el entrenamiento, guiando, enseñando y motivándote para la consecución de tus objetivos.",
+                "Elaboración de un plan de entrenamiento adecuado a tus necesidades",
+                "Contacto permanente con tu entrenador durante la semana.",
+                "Corrección de la postura en el desarrollo de los ejercicios.",
+                ],
+            titleSub2:"El entrenamiento personalizado está ideado para conseguir los objetivos específicos, como pueden ser:",
+
+    	    subtitle2 : ["Adelgazamiento general o específico",
+            "Hipertrofia o volumen muscular",
+            "Definición ",
+            "Elasticidad y potencia",
+            "Fuerza y velocidad",
+            "Tonificación",
+            ]
+        },
+        {
+            name:"Entrenamiento para corredores populares",
+            description:"Hoy en día el running es el deporte con más adeptos. Por esta razón, ofrecemos un entrenamiento " +
+            "adecuado a tus capacidades físicas e intereses. Este tipo de entrenamiento se puede llevar a cabo individualmente o en grupo. " +
+            "En este caso, el entrenamiento se puede llevar a cabo por la calle, en un parque, en la pista de atletismo, etc. " +
+            "El entrenador te acompañará en las competiciones más importantes para conseguir tus objetivos."
         },
         {
             name:"Entrenamiento para grupos reducidos",
-            description:"Si entrenar de forma individualizada te da verguenza, o te parece extraño, una forma no invasiva " +
-            "es entrenar en grupos reducidos. Puedes entrenar con tu pareja o con un grupo de amigos. De esta forma el entranmiento es mas llevadero y motivador. " +
-            "Una ventaja de este tipo de entrenamiento es que conseguiras un descuento significativo."
+            description:"Si entrenar de forma individualizada te da vergüenza, o te parece extraño." +
+            " Una forma no invasiva es entrenar en grupos reducidos. Puedes entrenar con tu pareja o con un grupo de amigos, " +
+            "conocidos o vecinos. De esta forma el entrenamiento es más llevadero y motivante. Otra ventaja de este tipo de" +
+            " entrenamiento es que conseguirás un descuento significativo."
         },
         {
             name:"Entrenamiento Preboda",
-            description:"Siempre queremos lucir nuestro mejor aspecto en este dia tan especial. Te ofrecemos un servicio personalizado para ti y para tu pareja." +
-            "De esta manera podreis llegar al dia de la boda sin estres y con una forma física ideal"
+            description:"Siempre queremos lucir nuestro mejor aspecto en este día tan especial." +
+            " Te ofrecemos un servicio personalizado para ti y para tu pareja. " +
+            "De esta manera, podréis llegar al día de la boda sin estrés y con una forma física ideal. "
         },
         {
             name:"Preparacion para oposiciones",
-            description:"Consigue tu plaza para policía, bombero, guardia civil, oficial del ejército, etc, " +
-            "con un entrenador que te planificara un entrenamiento y estará a tu lado para conseguir tus objetivos.\n" +
-            "Nostros te ayudamos a conseguir la maxima puntuacion en las pruebas fisicas"
+            description:"Consigue tu plaza para policía, bombero, guardia civil, oficial del ejército, etc., " +
+            "con un entrenador que te planificará el entrenamiento y estará a tu lado para conseguir tus objetivos. " +
+            "Nosotros te ayudamos a conseguir la máxima puntuación en las pruebas físicas."
         },
         {
             name:"Test de Lactato",
-            description:"Entre todas las pruebas de esfuerzo existentes a dia de hoy, una de las mejores es el test de lactato.\n" +
-            "Consiste en hacer una carrera continua en cinta o pista de atletismo durante un tiempo determinado para medir el ácido lactico que produce tu cuerpo.\n" +
-            "Con esta prueba conseguimos determinar donde esta tu umbral anaeróbico, en el cual comienzas a producir ácido láctico.\n" +
-            "El ácido láctico en pequeñas cantidades no es contraproducente, sin embargo, cuando una persona enterna todos los dias produciendo ácido láctico" +
-            "corre riesgos graves para su salud.\n" +
-            "Al hacer el Test determinamos de forma precisa a que ritmo debes entrenar para no lesionarte ni quemarte."
+            description:"Entre todas las pruebas de esfuerzo existentes, la más efectiva es el Test de Lactato. " +
+            "Consiste en hacer una carrera continua en cinta o pista de atletismo durante un tiempo determinado para medir el ácido láctico que produce tu cuerpo. " +
+            "Con esta prueba conseguimos determinar dónde está tu umbral anaeróbico, en el cual comienzas a producir ácido láctico. " +
+            "El ácido láctico en pequeñas cantidades no es contraproducente, " +
+            "sin embargo, cuando una persona entrena todos los días produciendo ácido láctico, corre riesgos graves para su salud. " +
+            "Al hacer el Test de Lactato determinamos de forma precisa a qué ritmo se debe entrenar para no lesionar ni “quemar” al deportista. "
         }];
     var sections=["inicio","servicios","usuarios","informacion","tarifas","contacto"];
     var images=[{
